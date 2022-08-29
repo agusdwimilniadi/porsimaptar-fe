@@ -137,3 +137,17 @@
   opacity: 1;
   background-color: #fd7c13e4;
 }
+
+.box-bidang {
+  background-color: transparent;
+  height: 25rem;
+  border-radius: 100% 100% 0 0;
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+}
+@media (min-width: 768px) {
+  .box-bidang {
+    background-color: #b3e6fe !important;
+  }
+}

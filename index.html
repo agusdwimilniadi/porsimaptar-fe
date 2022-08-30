@@ -95,20 +95,22 @@
     <div class="video-background-holder position-relative">
       <img
         src="asset/img_home-cloud.cb2bb692.png"
-        alt="cloudhome"
+        alt="cloudhome-awan kiri"
         class="position-absolute d-md-block d-none"
         style="z-index: 2; height: 50%; top: 25%; left: 0"
+        id="cloud-left"
       />
       <img
         src="https://porsimaptar2022.com/porsimaptar/maskot3.png"
         alt="cloudhome"
         class="position-absolute d-md-block d-none"
+        id="maskot-1"
         style="z-index: 2; height: 90%; top: 0%; left: 0; transform: scaleX(-1)"
       />
       <img
         src="asset/img_home-fire.3c9dab02.png"
         alt="cloudhome"
-        class="position-absolute d-md-block d-none"
+        class="position-absolute d-md-block d-none fire-cloud"
         style="z-index: 2; height: 90%; bottom: -10%; left: 0"
       />
       <img
@@ -122,11 +124,13 @@
           right: 0;
           transform: scaleX(-1);
         "
+        id="cloud-left-2"
       />
       <img
         src="https://porsimaptar2022.com/porsimaptar/maskot1.png"
         alt="cloudhome"
         class="position-absolute d-md-block d-none"
+        id="maskot-2"
         style="
           z-index: 2;
           height: 90%;
@@ -138,7 +142,7 @@
       <img
         src="asset/img_home-fire.3c9dab02.png"
         alt="cloudhome"
-        class="position-absolute d-md-block d-none"
+        class="position-absolute d-md-block d-none fire-cloud-2"
         style="
           z-index: 2;
           height: 90%;
@@ -161,7 +165,7 @@
       </video>
       <div class="video-background-content container h-100">
         <div class="d-flex h-100 text-center align-items-center">
-          <div class="w-100 text-white">
+          <div class="w-100 text-white" id="judul-header">
             <img
               src="https://porsimaptar2022.com/porsimaptar/porsi.png"
               alt="logo-simaptar"
@@ -628,6 +632,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <!-- GSAP UMUM -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <!-- GSAP UMUM -->
+
+    <!-- GSAP SCROLLTRIGGER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <!-- GSAP SCROLLTRIGGER -->
+
+    <!-- GSAP TEXT PLUGIN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/TextPlugin.min.js"></script>
+    <!-- GSAP TEXT PLUGIN -->
+    <script src="js/gsap.js"></script>
     <script src="js/YoutubePopup.js"></script>
     <script type="text/javascript">
       $(function () {

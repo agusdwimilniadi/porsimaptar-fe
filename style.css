@@ -4,6 +4,9 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .color-orange {
   color: #fd7e13 !important;
 }

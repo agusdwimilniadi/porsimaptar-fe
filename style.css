@@ -151,3 +151,18 @@
     background-color: #b3e6fe !important;
   }
 }
+
+.box-unduhan {
+  background-color: transparent;
+  height: 15rem;
+  border-radius: 50px 50px 0 0;
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+}
+
+.box-question {
+  background-color: transparent;
+  border: 5px solid white;
+  border-radius: 20px;
+}

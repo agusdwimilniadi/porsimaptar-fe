@@ -22,11 +22,11 @@ $(document).ready(function () {
   gsap.fromTo(
     "#maskot-1",
     { x: -600, y: 600 },
-    { x: 0, y: 0, duration: 1.5, delay: 2.4 }
+    { x: 0, y: 100, duration: 1.5, delay: 2.4 }
   );
   gsap.fromTo(
     "#maskot-2",
     { x: 600, y: 600 },
-    { x: 0, y: 0, duration: 1.5, delay: 2.4 }
+    { x: 0, y: 100, duration: 1.5, delay: 2.4 }
   );
 });

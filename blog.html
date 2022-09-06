@@ -44,6 +44,7 @@
       type="text/css"
     />
     <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body class="dark-scheme">
@@ -101,18 +102,20 @@
         <!-- section begin -->
         <section
           id="subheader"
-          class="text-light"
+          class="text-light d-flex align-items-center justify-content-center bg-bidang-img"
           style="
-            background-image: url('asset/bg.png');
+            background-image: url('asset/emoo.jpeg');
             background-size: cover;
-            background-size: 30px;
+            background-size: 100vh;
+            height: 100vh;
           "
         >
+          <div class="bg-overlay"></div>
           <div class="center-y relative text-center">
             <div class="container">
               <div class="row">
-                <div class="col-md-12 text-center">
-                  <h1>Blog</h1>
+                <div class="col-md-12 text-center" id="text-bidang">
+                  <h1 class="text-bidangq">Blog</h1>
                   <h3>Ayo Ikut Berpartisipasi pada PORSIMAPTAR XXI</h3>
                   <p>Dengan tema GLORIFYING THE FORGOTTEN HERITAGE</p>
                 </div>
@@ -303,5 +306,16 @@
     <script src="js/designesia.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="form.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <!-- GSAP UMUM -->
+
+    <!-- GSAP SCROLLTRIGGER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <!-- GSAP SCROLLTRIGGER -->
+
+    <!-- GSAP TEXT PLUGIN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/TextPlugin.min.js"></script>
+    <script src="js/gsap.js"></script>
   </body>
 </html>

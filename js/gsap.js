@@ -29,4 +29,40 @@ $(document).ready(function () {
     { x: 600, y: 600 },
     { x: 0, y: 100, duration: 1.5, delay: 2.4 }
   );
+
+  gsap.to(".video-bg", {
+    ease: "none",
+    scrollTrigger: {
+      scrub: 0.5,
+    },
+    scale: 9,
+  });
+  gsap.to(".maskotq", {
+    ease: "none",
+    scrollTrigger: {
+      scrub: 1,
+    },
+    scale: -0.5,
+  });
+  gsap.to("#judul-header", {
+    ease: "none",
+    scrollTrigger: {
+      scrub: 0.3,
+    },
+    y: 1000,
+  });
+  gsap.to(".bg-bidang-img", {
+    ease: "none",
+    scrollTrigger: {
+      scrub: 0.5,
+    },
+    scale: 1.5,
+  });
+  gsap.to("#text-bidang", {
+    ease: "none",
+    scrollTrigger: {
+      scrub: 0.3,
+    },
+    y: 500,
+  });
 });

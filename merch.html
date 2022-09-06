@@ -103,21 +103,23 @@
         <!-- section begin -->
         <section
           id="subheader"
-          class="text-light"
+          class="text-light d-flex align-items-center justify-content-center bg-bidang-img"
           style="
-            background-image: url('asset/bg.png');
+            background-image: url('asset/emoo.jpeg');
             background-size: cover;
-            background-size: 30px;
+            background-size: 100vh;
+            height: 100vh;
           "
         >
+          <div class="bg-overlay"></div>
           <div class="center-y relative text-center">
             <div class="container">
               <div class="row">
-                <div class="col-md-12 text-center">
-                  <h2>
+                <div class="col-md-12 text-center" id="text-bidang">
+                  <h1 class="text-bidangq">
                     Official <br />
                     Merchandise
-                  </h2>
+                  </h1>
                 </div>
                 <div class="clearfix"></div>
               </div>
@@ -662,5 +664,16 @@
     <script>
       AOS.init();
     </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <!-- GSAP UMUM -->
+
+    <!-- GSAP SCROLLTRIGGER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <!-- GSAP SCROLLTRIGGER -->
+
+    <!-- GSAP TEXT PLUGIN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/TextPlugin.min.js"></script>
+    <script src="js/gsap.js"></script>
   </body>
 </html>

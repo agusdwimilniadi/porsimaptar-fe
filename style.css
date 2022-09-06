@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "the_wild_breath_of_zeldaRg";
+  src: url("vendor/thewildbreathofzelda-webfont.woff2") format("woff2"),
+    url("vendor/thewildbreathofzelda-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   font-family: "Montserrat", sans-serif;
 }
@@ -223,4 +231,28 @@ body {
 
 .img-shop:hover {
   transform: scale(1.1);
+}
+.text-bidangq {
+  font-family: "the_wild_breath_of_zeldaRg" !important;
+  background: linear-gradient(
+    0deg,
+    rgba(202, 132, 6, 1) 0%,
+    rgba(251, 245, 89, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 4rem;
+}
+@media (min-width: 768px) {
+  .text-bidangq {
+    font-size: 7rem;
+  }
+}
+
+.bg-overlay {
+  background-color: #0000008b;
+  height: 100%;
+  width: 100%;
+  transition: 1s;
 }

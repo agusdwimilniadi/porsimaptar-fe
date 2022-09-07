@@ -30,13 +30,6 @@ $(document).ready(function () {
     { x: 0, y: 100, duration: 1.5, delay: 2.4 }
   );
 
-  gsap.to(".video-bg", {
-    ease: "none",
-    scrollTrigger: {
-      scrub: 0.5,
-    },
-    scale: 9,
-  });
   gsap.to(".maskotq", {
     ease: "none",
     scrollTrigger: {
